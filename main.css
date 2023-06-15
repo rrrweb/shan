@@ -1,0 +1,27 @@
+.navbar{
+    background: mediumaquamarine;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 8px;
+    padding: 8px;
+}
+.navbar ul li:hover{
+    background: greenyellow;
+    color: blue;
+    cursor: crosshair;
+    border-radius: 25px;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background: red;
+    border-radius: 50%;
+    margin: auto;
+}
+.circle:hover{
+    background: black;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
